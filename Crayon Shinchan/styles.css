@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif;
+    color: #fff;
+    text-align: justify;
+    color: #010000;
+    position: relative;
+}
+h2,p{
+    font-weight: 500;
+}
+img{
+    border: none;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    line-height: 60px;
+    padding: 0 15px;
+    background-color: #cf2212;
+}
+header .logo{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+}
+ .navig{
+    float: right;
+    
+}
+header .navig li{
+  width: 150px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+.income{
+    padding: 15px;
+    display: block;
+}
+.banner {
+    display: block;
+    width: 100%;
+}
+.s1{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.all{
+    width: 100%;
+    float: left;
+    
+}
+ .td1{
+    width: 970px;  
+    line-height: 28px;
+    color: #333;
+    
+}
+.title{
+    background: #598bd2;
+	line-height: 40px;
+	padding: 0 15px;
+	margin: 20px 0;
+    color: #fff;
+}
+.s2 h2{
+    font-size: 20px;   
+}
+
+footer {
+	background: #cf2212;
+	line-height: 60px;
+	padding: 0 15px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.p2 img{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
