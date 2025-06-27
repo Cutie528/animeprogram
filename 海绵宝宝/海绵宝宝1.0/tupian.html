@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WL恋爱日记</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .content h2{
+      margin-top: 15px;
+    }
+    .content .photo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .content .photo li {
+      flex-basis: calc((100% - 2 * 20px) / 3);
+      height: 260px;
+    }
+
+    .content .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50px;
+    }
+
+    h2 {
+      color: #6b4c15;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapin">
+    <!--头部-->
+    <header>
+      <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="juqing.html">剧情简介</a></li>
+        <li><a href="juese.html">主人公介绍</a></li>
+        <li><a href="tupian.html">图片鉴赏</a></li>
+        <li><a href="jingcai.html">精彩片段</a></li>
+      </ul>
+    </header>
+
+    <!-- 图片 -->
+    <div class="banner"> <img src="images/16.jpg" /> </div>
+
+    <!--内容-->
+    <div class="content">
+      <div class="title">
+        <h2>相处碎片</h2>
+      </div>
+      <ul class="photo">
+        <li><img src="images/7.jpeg" /></li>
+        <li><img src="images/8.jpg" /></li>
+        <li><img src="images/9.jpg" /></li>
+        <li><img src="images/10.jpg" /></li>
+        <li><img src="images/11.jpg" /></li>
+        <li><img src="images/12.jpg" /></li>
+        <li><img src="images/13.jpg" /></li>
+        <li><img src="images/14.jpg" /></li>
+        <li><img src="images/15.jpg" /></li>
+      </ul>
+    </div>
+
+    <!--底部-->
+    <footer>
+      <p>海绵宝宝</p>
+    </footer>
+  </div>
+</body>
+
+</html>
